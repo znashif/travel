@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link}  from "react-router-dom";
 import propTypes from "prop-types";
 
 export default function Button(props) {
@@ -21,8 +21,8 @@ export default function Button(props) {
       <span className={className.join(" ")} style={props.style}>
         {props.isLoading ? (
           <>
-            <span class="spinner-border spinner-border-sm mx-5"></span>
-            <span class="sr-only">Loading...</span>
+            <span className="spinner-border spinner-border-sm mx-5"></span>
+            <span className="sr-only">Loading...</span>
           </>
         ) : (
           props.children
